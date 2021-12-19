@@ -14,9 +14,13 @@
   .container .btn {
     position: absolute;
     /* -ms-transform: translate(-50%, -50%); */
-    background-color: #555;
-    color: white;
-    font-size: 4vh;
+    /* background-color: #555; */
+    /* color: white; */
+    /* font-size: 4vh; */
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -32,14 +36,17 @@
       right:20%;
 
       font-family: 'Orbitron';
-      font-size: 7vh;
+      font-size: 6vh;
+
+      opacity: 1;
+      transition: opacity 0.12s linear;
   }
 
   .container .btn-circ {
-    background-color: rgb(202, 194, 194);  
-    color: black;
-    border-radius: 50%;
-    width: 7.5vh;
+    /* background-color: rgb(202, 194, 194);   */
+    /* color: black; */
+    /* border-radius: 50%; */
+    /* width: 7.5vh; */
   }
 
   .row1 {
@@ -79,23 +86,23 @@
   }
 
   #equals {
-    background-color: rgb(202, 194, 194);  
-    color: black;
+    /* background-color: rgb(202, 194, 194);   */
+    /* color: black; */
     top: 88%;
     left: 50%;
     width: 27vh;
   }
 
   #plus {
-    background-color: rgb(202, 194, 194);  
-    color: black;
+    /* background-color: rgb(202, 194, 194);   */
+    /* color: black; */
     top: 79.5%;
 
     width: 7.5vh;
     height: 12.5vh;
     border-radius: 33%;
   }
-  
-  .container .btn:hover {
-    background-color: black;
+
+.playing {
+    opacity: 0.2;
   }
